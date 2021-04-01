@@ -1,6 +1,10 @@
 - JavaScript
-  - [闭包](closure.md)
-  - [原型](prototype.md)
+  - [基础](javascript/base.md)
+  - [防抖与节流](javascript/closure.md)
+  - [原型](javascript/prototype.md)
 
 - CSS
-  - [布局](layout.md)
+  - [布局](layout.md "The greatest guide in the world")
+  
+- React
+  - [基础](react/index.md)
