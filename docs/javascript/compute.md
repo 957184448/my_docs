@@ -15,7 +15,6 @@
     }
   Number.prototype.add = add;
   Number.prototype.mines = mines;
-
   }()
   console.log((5).add(3).mines(2))
 ```
