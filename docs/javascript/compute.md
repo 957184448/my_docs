@@ -91,3 +91,31 @@
   }
   console.log(bubble(arr));
   ```
+
+  - {1:222,2:123,5:888} 请把数据处理为如下结构：[222,123,null,null,888,null,null,null,null,null,null,null];
+  ```javascript 
+  let obj = {1:222,2:123,5:888};
+  let arr = new Array(12).fill(null).map((item,index)=>{return obj[index+1] || null});
+  ```
+
+  - 两数组的交集 
+  ```javascript 
+  let nums1 = [1,8,5,3,2,43456,2,342,5];
+  let nums1 = [2,342,5];
+
+  let arr = [];
+  for(let i = 0; i < nums1.length ; i++){
+    let nums1Len = nums1[i];
+    for(let j = 0; j<nums2.length ; j++){
+      let nums2Len = nums2[j];
+      if(nums1Len === nums2Len){
+          arr.push(nums1Len);
+          break;
+      }
+    }
+  }
+
+  nums1.forEach(item=>{
+    return nums2.includes(item)?arr.push:null;
+  })
+  ```
