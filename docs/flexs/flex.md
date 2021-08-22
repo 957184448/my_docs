@@ -16,9 +16,12 @@
       align-items 设置侧轴上的子元素排列方式 单行
       flex-flow 复合属性 相当于同时设置了flex-direction 和 flex-wrap
   # justify-content 设置主轴上的子元素排列方式 
-   ``` - flex-start 默认值从头部开始 如果主轴是x轴 则从左到右
+    - flex-start 默认值从头部开始 如果主轴是x轴 则从左到右
     - flex-end 从尾部开始排列
-    - center 在主轴居中对齐 如果主轴是x轴 则水平剧中
+    - center 在主轴居中对齐 如果主轴是x轴 则水docsify serve docs平剧中
     - space-around 平分剩余空间
     - space-between 先两侧贴边 再平分剩余空间
-    ```
+    - align-item 单行
+    - align-content 多行
+  # 子项属性
+    - 
