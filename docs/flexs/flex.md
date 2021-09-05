@@ -21,7 +21,4 @@
     - center 在主轴居中对齐 如果主轴是x轴 则水docsify serve docs平剧中
     - space-around 平分剩余空间
     - space-between 先两侧贴边 再平分剩余空间
-    - align-item 单行
-    - align-content 多行
-  # 子项属性
-    - 
+    
